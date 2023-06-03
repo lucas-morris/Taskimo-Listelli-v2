@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 900;
+  margin: 0;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+}
+
+#app {
+  text-align: left;
+  width: 100%;
+}
+
+#newTask {
+  width: 100%;
+  font-size: 5vw;
+  background: #000;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin-bottom: 2vw;
+}
+
+.task-text {
+  font-size: 20vw;
+  line-height: 1.2;
+  margin: 2em 0;
+  padding: 0.5em 0;
+  border-top: 3px solid white;
+}
+
+.task-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  margin-top: 1em;
+}
+
+button {
+  display: inline-block;
+  width: 2.5vw;
+  height: 2.5vw;
+  margin-left: 1vw;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 2vw;
+  line-height: 2.5vw;
+  text-align: center;
+}
+
+button.edit {
+  background-color: #007BFF;
+}
+
+button.delete {
+  background-color: #FF7F00;
+}
+
+button.done {
+  background-color: #00A550;
+}
